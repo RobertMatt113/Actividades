@@ -5,6 +5,7 @@ public class MiApp {
 	//EL método run gestiona la ejecución del 
 	// programa, invocando el mínimo de sentencias.
 	static void run() {
+		for (int i=0; i<11; i++)
 		System.out.println("Hola Mundo");
 	}
 	// El método principal debe quedar reducido al
@@ -13,5 +14,4 @@ public class MiApp {
 		// TODO Auto-generated method stub
          run();
 	}
-
 }
